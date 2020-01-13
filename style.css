@@ -1,0 +1,67 @@
+@import
+url('https://fonts.googleapis.com/css?family=Lexend+Exa');
+@import
+url('https://fonts.googleapis.com/css?family=Fredoka+One');
+
+.home{
+ text-align: center;
+ font-size: 45px;
+}
+body{
+ background:url("cerbistan.jpg");
+ background-size: cover;
+ height: 100vh;
+ color: blue;
+ font-family: 'Lexend Exa', sans serif;
+}
+
+img{
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  border:solid 5px white;
+}
+button{
+ background-color: green;
+ font-size: 50px;
+ border-radius:10px;
+ border:solid green;
+ margin: 60px 0 0 0;
+ font-family: 'Lexend Exa', sans serif;
+}
+
+.unu{
+ display: inline-block;
+}
+
+.doi{
+ display: inline-block;
+}
+
+.trei{
+ display: inline-block;
+}
+
+.patru{
+ display: inline-block;
+}
+div{
+ height: 30vh;
+ weidth: 30vh;
+ margin: 15px 50px 15px 15px;
+}
+
+.max{
+ height: 300px;
+ width: 300px;
+ border-radius: 150px;
+ border:solid 5px white;
+}
+
+p{
+ color: white;
+ font-family: 'Lexend Exa', sans serif;
+ text-align: center;
+ font-size: 20px;
+}
+
