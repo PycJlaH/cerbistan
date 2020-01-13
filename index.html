@@ -8,18 +8,18 @@
 <h1> Cerbistan 2.0 </h1>
 
 <button><a href="./home.html"> Intra </a></button>
-   <h2 id="votes"> 0 SuPeR<h2>
+   <h2 id="votes"> 1 SuPeR<h2>
     <button onclick="votes()"> Imi place </button
  </div>
   <script>
-   var x = 0;
-       document.getElementById("votes").value ;
+   var x = 1;
+  
    function votes() {
-    if(x==0){
+    if(x>0){
     x++;
     }
    }
-    x.innerHTML= x+" SuPeR";
+   document.getElementById("votes").innerHTML= x+" SuPeR";
   </script>
  </body>
 </html>
