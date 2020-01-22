@@ -75,6 +75,17 @@
    <h3>Vadim Moraru</h3>
 <a href="./vadim.html"><img src="vadim.jpg"></a>
    </div>
+   <div> 
+    <p id="paragraph2" onmouseout='numouse()' onmouseover="pestemouse()"> Treci suca aici!! </p>
+   </div>
   </div>
+  <script>
+   function numouse() {
+   document.getElementById("paragraph2").innerHTML= "Treci suca inapoi!!";
+  }
+  function pestemouse() {
+   document.getElementById("paragraph2").innerHTML= "Multumesc ca stai pe mine<br> ca musca pe cacat!!"
+  }
+  </script>
 </body>
 </html>
