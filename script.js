@@ -19,6 +19,14 @@ document.getElementById("votes").innerHTML= x + " SuPeR" +
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style=" color: green;"><br>Uvajuha!!</h5> ';
 }
+      if(x>75){
+document.getElementById("votes").innerHTML= x + " SuPeR" + 
+'<h5 style=" color: green;"><br>Wow ce tare esti! Respect!!</h5> ';
+}
+      if(x>100){
+document.getElementById("votes").innerHTML= x + " SuPeR" + 
+'<h5 style=" color: green;"><br>Pasiba bolisoe da ajunge, variante nu mai am!</h5> ';
+}
 }
 function vvotes() {
 x = x - 1;
