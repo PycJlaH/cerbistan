@@ -64,3 +64,16 @@ document.getElementById("votes").innerHTML= x + " SuPeR" +
 '<h5 style="color: green;"><br> Ajunge blea, variante nu mai am!</h5> ';
    }
 }
+function log() {
+var username, password;
+username = document.getElementById("username").value;
+password = document.getElementById("password").value;
+var username1, password1;
+username1 = "admin";
+password1 = "cerbi";
+if(username==username1 && password==password1){
+document.getElementById("link").href = "./home.html";
+}else{
+window.alert('Parola sau Login gresit');
+}
+}
