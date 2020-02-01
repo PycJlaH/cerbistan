@@ -21,7 +21,7 @@ img{
   border-radius: 75px;
   border:solid 5px white;
 }
-#aa{
+.aa{
  background-color: green;
  font-size: 50px;
  border-radius:10px;
@@ -29,7 +29,7 @@ img{
  margin: 60px 0 0 0;
  font-family: 'Lexend Exa', sans serif;
 }
-#bb{
+.bb{
  background-color: red;
  font-size: 30px;
  border-radius:10px;
@@ -37,7 +37,7 @@ img{
  margin: 20px 0 0 0;
  font-family: 'Lexend Exa', sans serif;
 }
-.votess{
+#votess{
  background-color: green;
  font-size: 30px;
  border-radius:10px;
