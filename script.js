@@ -77,3 +77,44 @@ document.getElementById("link").href = "./home.html";
 window.alert('Parola sau Login gresit');
 }
 }
+function yes(){
+window.alert('Multumesc, asa si credeam :D');
+}
+  function fugi(){
+   var x =
+ Math.floor(Math.random() * 10);
+
+   var y =
+ document.getElementById("fugi");
+ if(x == 0){
+   y.style.margin =  "75px 117px 0 17px";
+}
+ else if(x == 1){
+  y.style.margin =  "117px 7px 0 127px";
+}
+ else if(x == 2){
+ y.style.margin =  "17px 127px 0 32px";
+}
+else if(x == 3){
+  y.style.margin =  "127px 32px 0 145px";
+}
+else if(x == 4){
+  y.style.margin =  "102px 145px 0 38px";
+}
+else if(x == 5){
+  y.style.margin =  "45px 28px 0 166px";
+}
+else if(x == 6){
+  y.style.margin =  "138px 166px 0 70px";
+}
+else if(x == 7){
+  y.style.margin =  "96px 170px 0 22px";
+}
+else if(x == 8){
+  y.style.margin =  "70px 22px 0 175px";
+}
+else if(x == 9){
+ y.style.margin =  "112px 75px 0 117px";
+}
+ }
+
