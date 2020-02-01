@@ -21,9 +21,25 @@ img{
   border-radius: 75px;
   border:solid 5px white;
 }
-button{
+#aa{
  background-color: green;
  font-size: 50px;
+ border-radius:10px;
+ border:solid green;
+ margin: 60px 0 0 0;
+ font-family: 'Lexend Exa', sans serif;
+}
+#bb{
+ background-color: red;
+ font-size: 30px;
+ border-radius:10px;
+ border:solid green;
+ margin: 60px 0 0 0;
+ font-family: 'Lexend Exa', sans serif;
+}
+.vvotes{
+ background-color: green;
+ font-size: 30px;
  border-radius:10px;
  border:solid green;
  margin: 60px 0 0 0;
