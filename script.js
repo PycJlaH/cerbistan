@@ -251,7 +251,6 @@ b = "Nicoleta ";
 b = "Ana ";
 }
 
-document.getElementById("joc").innerHTML=
-x + c + v + "cu " + b;
+window.alert(x + c + v + 'cu ' + b);
 }
 
