@@ -86,3 +86,9 @@ p{
 #votes{
  font-size: 25px;
 }
+#mass{
+ font-size: 20px;
+   background-color: lightgreen;
+   border: solid 2px black;
+   border-radius: 50px;
+}
