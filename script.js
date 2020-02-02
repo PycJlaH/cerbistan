@@ -156,7 +156,7 @@ else if(x == 9){
 }
  }
 
-function joc(){
+ function joc(){
 var x, c, v, b;
 x = Math.floor(Math.random()*10);
 c = Math.floor(Math.random()*10);
