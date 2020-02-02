@@ -59,41 +59,47 @@ document.getElementById("votes").innerHTML= x + " SuPeR" +
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Unde te-am prins acolo te-am zaibit!</h5> ';
    }
-  if(x<-100){
+  if(x<-99){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Ajunge blea, variante nu mai am!</h5> ';
    }
-  if(x<-200){
+  if(x<-199){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Luate-as in sex!!</h5> ';
    }
-  if(x<-300){
+  if(x<-299){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Din tine om ca din pula mea coada de lopata!</h5> ';
    }
-  if(x<-400){
+  if(x<-399){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Esti o laba trista!</h5> ';
    }
-  if(x<-500){
+  if(x<-499){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> La pula ai Petrea, te-am vazut!</h5> ';
    }
-  if(x<-600){
+  if(x<-599){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Stii cat a tinut maicata cacatul in ea ? 9 luni :))!!</h5> ';
    }
-  if(x<-700){
+  if(x<-699){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Ai grija cand mergi pe langa caini, au obiceiuri de a manca cacat!!</h5> ';
    }
-  if(x<-800){
+  if(x<-799){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Hai sictir bai ciumpalaculei!</h5> ';
    }
-  if(x<-900){
+  if(x<-899){
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
 '<h5 style="color: green;"><br> Imi pare rau ca ai mai apasat de 100 de ori, dar pana aici cu imaginatia mea!!</h5> ';
+   }
+  if(x<-999){
+    var e = new Date().getHours();
+    var r = new Date().getMinutes();
+document.getElementById("votes").innerHTML= x + " SuPeR" + 
+'<h5 style="color: green;"><br> Tu chiar la ora "e" si "r" minute nu ai ce face?</h5> ';
    }
 }
 function log() {
