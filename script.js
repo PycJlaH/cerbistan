@@ -157,12 +157,13 @@ else if(x == 9){
  }
 
  function joc(){
-var x, c, v, b;
+var x, c, v, b, n;
 x = Math.floor(Math.random()*10);
 c = Math.floor(Math.random()*10);
 v = Math.floor(Math.random()*10);
 b = Math.floor(Math.random()*10);
-
+n = Math.floor(Math.random()*10);
+   
 if(x==0){
 x = "Max ";
 } else if(x==1){
