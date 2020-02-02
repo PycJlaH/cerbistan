@@ -99,7 +99,7 @@ document.getElementById("votes").innerHTML= x + " SuPeR" +
     var e = new Date().getHours();
     var r = new Date().getMinutes();
 document.getElementById("votes").innerHTML= x + " SuPeR" + 
-'<h5 style="color: green;"><br> Tu chiar la ora </h5>'+ e +'<h5 style="color: green;"> si </h5>'+ r + '<h5 style="color: green;"> minute nu ai ce face?</h5> ';
+'<h5 style="color: green;"><br> Tu chiar la ora '+ e +' si '+ r + ' minute nu ai ce face?</h5> ';
    }
 }
 function log() {
