@@ -277,6 +277,6 @@ n = "in copac ";
 if(x==b){
   return false;
 }
-window.alert(x + c + v + 'cu ' + n + b);
+window.alert(x + c + v + n + 'cu ' + b);
 }
 
