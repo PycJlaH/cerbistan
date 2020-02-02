@@ -250,7 +250,9 @@ b = "Nicoleta ";
 } else if(b==9){
 b = "Ana ";
 }
-
+if(x==b){
+  return false;
+}
 window.alert(x + c + v + 'cu ' + b);
 }
 
