@@ -194,13 +194,13 @@ c = "se calareste ";
 } else if(c==3){
 c = "mananca ";
 } else if(c==4){
-c = "alearga ";
+c = "pute ";
 } else if(c==5){
 c = "doarme ";
 } else if(c==6){
 c = "boraste ";
 } else if(c==7){
-c = "face pipi ";
+c = "cade ";
 } else if(c==8){
 c = "se cufura ";
 } else if(c==9){
@@ -224,7 +224,7 @@ v = "prost ";
 } else if(v==7){
 v = "urat ";
 } else if(v==8){
-v = "efectiv ";
+v = "ca pula ";
 } else if(v==9){
 v = "puternic ";
 }
