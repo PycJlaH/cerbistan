@@ -156,3 +156,102 @@ else if(x == 9){
 }
  }
 
+function joc(){
+var x, c, v, b;
+x = Math.floor(Math.random()*10);
+c = Math.floor(Math.random()*10);
+v = Math.floor(Math.random()*10);
+b = Math.floor(Math.random()*10);
+
+if(x==0){
+x = "Max ";
+} else if(x==1){
+x = "Madulin ";
+} else if(x==2){
+x = "Pavel ";
+} else if(x==3){
+x = "Nicu ";
+} else if(x==4){
+x = "Ruslan ";
+} else if(x==5){
+x = "Marina Conovalu ";
+} else if(x==6){
+x = "Marina Luchian ";
+} else if(x==7){
+x = "Cristina ";
+} else if(x==8){
+x = "Nicoleta ";
+} else if(x==9){
+x = "Ana ";
+}
+
+if(c==0){
+c = "bea ";
+} else if(c==1){
+c = "se fute ";
+} else if(c==2){
+c = "se calareste ";
+} else if(c==3){
+c = "mananca ";
+} else if(c==4){
+c = "alearga ";
+} else if(c==5){
+c = "doarme ";
+} else if(c==6){
+c = "boraste ";
+} else if(c==7){
+c = "face pipi ";
+} else if(c==8){
+c = "se cufura ";
+} else if(c==9){
+c = "zboara ";
+}
+
+if(v==0){
+v = "adanc ";
+} else if(v==1){
+v = "la greu ";
+} else if(v==2){
+v = "perfect ";
+} else if(v==3){
+v = "frumos ";
+} else if(v==4){
+v = "nebunatic ";
+} else if(v==5){
+v = "cu respect ";
+} else if(v==6){
+v = "prost ";
+} else if(v==7){
+v = "urat ";
+} else if(v==8){
+v = "efectiv ";
+} else if(v==9){
+v = "puternic ";
+}
+
+if(b==0){
+b = "Max ";
+} else if(b==1){
+b = "Madulin ";
+} else if(b==2){
+b = "Pavel ";
+} else if(b==3){
+b = "Nicu ";
+} else if(b==4){
+b = "Ruslan ";
+} else if(b==5){
+b = "Marina Conovalu ";
+} else if(b==6){
+b = "Marina Luchian ";
+} else if(b==7){
+b = "Cristina ";
+} else if(b==8){
+b = "Nicoleta ";
+} else if(b==9){
+b = "Ana ";
+}
+
+document.getElementById("joc").innerHTML=
+x + c + v + "cu " + b;
+}
+
