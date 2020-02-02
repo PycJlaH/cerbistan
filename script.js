@@ -250,9 +250,32 @@ b = "Nicoleta ";
 } else if(b==9){
 b = "Ana ";
 }
+   
+   if(n==0){
+n = "Max ";
+} else if(n==1){
+n = "in beci ";
+} else if(n==2){
+n = "in ocol ";
+} else if(n==3){
+n = "in gradina ";
+} else if(n==4){
+n = "la merzincu ";
+} else if(n==5){
+n = "la prut ";
+} else if(n==6){
+n = "la hata lu Max ";
+} else if(n==7){
+n = "in pianii cvartal ";
+} else if(n==8){
+n = "in Obelgrad City ";
+} else if(n==9){
+n = "pe drum ";
+}
+   
 if(x==b){
   return false;
 }
-window.alert(x + c + v + 'cu ' + b);
+window.alert(x + c + v + 'cu ' + n + b);
 }
 
