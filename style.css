@@ -132,10 +132,11 @@ p{
   border:solid 5px white;
   
 }
-@media screen and (max-width: 330px) {
+@media screen and (max-width: 360px) {
  .imgs{
  width: 300px;
  height:300px;
+ text-align:center;
  }
   .overlay .closebtn {
   font-size: 40px;
