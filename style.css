@@ -126,11 +126,16 @@ p{
   color: #f1f1f1;
 }
 .imgs{
-  width:350px;
+  width:351px;
+  height:351px;
+  border-radius: 5px;
+  border:solid 5px white;
+}
+ .imgss {
+  width:468px;
   height:350px;
   border-radius: 5px;
   border:solid 5px white;
-  
 }
 @media screen and (max-width: 360px) {
  .imgs{
@@ -138,6 +143,12 @@ p{
  height:300px;
  text-align:center;
  }
+ .imgss {
+  width:400px;
+  height:300px;
+  border-radius: 5px;
+  border:solid 5px white;
+}
   .overlay .closebtn {
   font-size: 40px;
   top: 15px;
