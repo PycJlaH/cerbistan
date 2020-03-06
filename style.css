@@ -126,14 +126,14 @@ p{
   color: #f1f1f1;
 }
 .imgs{
-  width:351px;
-  height:351px;
+  width:348px;
+  height:348px;
   border-radius: 5px;
   border:solid 5px white;
 }
  .imgss {
-  width:468px;
-  height:350px;
+  width:261px;
+  height:348px;
   border-radius: 5px;
   border:solid 5px white;
 }
@@ -144,7 +144,7 @@ p{
  text-align:center;
  }
  .imgss {
-  width:400px;
+  width:225px;
   height:300px;
   border-radius: 5px;
   border:solid 5px white;
