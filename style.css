@@ -99,7 +99,7 @@ p{
 
 .overlay {
   height: 0;
-  width: 100%;
+  width: 95%;
   position: fixed;
   z-index: 1;
   top: 0;
