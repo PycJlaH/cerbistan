@@ -8,6 +8,7 @@ background: black;
  max-width: 800px;
  margin: 0 auto;
 }
+.meniul img {vertical-align: middle;}
 
 .meniul .meniul2{
  position: absolute;
