@@ -17,3 +17,11 @@ background: black;
  color: #f1f1f1;
  width: 115%;
  padding: 20px;
+}
+ @media screen and (max-width: 360px) {
+.meniul {
+ position: relative;
+ max-width: 350px;
+ margin: 0 auto;
+}
+}
