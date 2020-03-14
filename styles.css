@@ -3,7 +3,7 @@
 }
 
 body {
-  background: black;
+  background: yellow;
   font-family: Arial;
   font-size: 17px;
 }
@@ -22,7 +22,7 @@ body {
  background: rgb(0, 0, 0);
  background: rgba(0, 0, 0, 0.5);
  color: #f1f1f1;
- width: 115%;
+ width: 200%;
  padding: 20px;
 }
 @media screen and (max-width: 300px) {
