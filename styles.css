@@ -11,7 +11,7 @@ body {
 
 .meniul {
  position: relative;
- max-width: 800px;
+ max-width: 75%;
  margin: 0 auto;
 }
 .meniul img {vertical-align: middle;}
@@ -22,6 +22,6 @@ body {
  background: rgb(0, 0, 0);
  background: rgba(0, 0, 0, 0.5);
  color: #f1f1f1;
- width: auto;
+ width: 100%;
  padding: 20px;
 }
